@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-block text-white px-5 py-2 text-sm font-medium cursor-pointer border-0;
+  }
+  .btn-primary {
+    @apply bg-blue-600;
+  }
+  .btn-secondary {
+    @apply bg-gray-600;
+  }
+  .btn-warning {
+    @apply bg-orange-600;
+  }
+  .btn-success {
+    @apply bg-green-600;
+  }
+  .btn-info {
+    @apply bg-cyan-600;
+  }
+  .btn-dark {
+    @apply bg-black;
+  }
+  .btn-purple {
+    @apply bg-purple-600;
+  }
+  .btn-indigo {
+    @apply bg-indigo-600;
+  }
+  .btn-pink {
+    @apply bg-pink-600;
+  }
+  .btn-danger {
+    @apply bg-red-600;
+  }
+
+  /* Shawod Button */
+  .primary-shadow {
+    @apply shadow shadow-blue-500/50;
+  }
+  .secondary-shadow {
+    @apply shadow shadow-gray-500/50;
+  }
+  .warning-shadow {
+    @apply shadow shadow-orange-500/50;
+  }
+  .success-shadow {
+    @apply shadow shadow-green-500/50;
+  }
+  .info-shadow {
+    @apply shadow shadow-cyan-500/50;
+  }
+  .dark-shadow {
+    @apply shadow shadow-black/50;
+  }
+  .purple-shadow {
+    @apply shadow shadow-purple-500/50;
+  }
+  .indigo-shadow {
+    @apply shadow shadow-indigo-500/50;
+  }
+  .pink-shadow {
+    @apply shadow shadow-pink-500/50;
+  }
+  .danger-shadow {
+    @apply shadow shadow-red-500/50;
+  }
+
+  /* Ring Button */
+  .primary-ring {
+    @apply focus:ring-2 ring-offset-2 ring-blue-500/50  transition-all rounded;
+  }
+  .secondary-ring {
+    @apply focus:ring-2 ring-offset-2 ring-gray-500/50  transition-all rounded;
+  }
+  .warning-ring {
+    @apply focus:ring-2 ring-offset-2 ring-orange-500/50  transition-all rounded;
+  }
+  .success-ring {
+    @apply focus:ring-2 ring-offset-2 ring-green-500/50  transition-all rounded;
+  }
+  .info-ring {
+    @apply focus:ring-2 ring-offset-2 ring-cyan-500/50  transition-all rounded;
+  }
+  .dark-ring {
+    @apply focus:ring-2 ring-offset-2 ring-black/50  transition-all rounded;
+  }
+  .purple-ring {
+    @apply focus:ring-2 ring-offset-2 ring-purple-500/50  transition-all rounded;
+  }
+  .indigo-ring {
+    @apply focus:ring-2 ring-offset-2 ring-indigo-500/50  transition-all rounded;
+  }
+  .pink-ring {
+    @apply focus:ring-2 ring-offset-2 ring-pink-500/50  transition-all rounded;
+  }
+  .danger-ring {
+    @apply focus:ring-2 ring-offset-2 ring-red-500/50  transition-all rounded;
+  }
+
+  /* Meterial Button */
+  .meterial {
+    @apply shadow-sm rounded relative shadow-black/40 before:w-full before:h-full before:absolute before:inset-0 before:bg-white/20 before:scale-0 before:transition-all before:hover:scale-100 before:rounded-full before:hover:rounded-none;
+  }
+}
