@@ -1,0 +1,257 @@
+.buttons-container > button,
+input[type="submit"] {
+  @apply mt-3;
+}
+
+.btn {
+  @apply inline-block text-white px-5 py-2 text-sm font-medium cursor-pointer border-0 bg-black;
+}
+.btn-primary {
+  @apply bg-blue-600;
+}
+.btn-secondary {
+  @apply bg-gray-600;
+}
+.btn-warning {
+  @apply bg-orange-600;
+}
+.btn-success {
+  @apply bg-green-600;
+}
+.btn-info {
+  @apply bg-cyan-600;
+}
+.btn-dark {
+  @apply bg-black;
+}
+.btn-purple {
+  @apply bg-purple-600;
+}
+.btn-indigo {
+  @apply bg-indigo-600;
+}
+.btn-pink {
+  @apply bg-pink-600;
+}
+.btn-danger {
+  @apply bg-red-600;
+}
+
+/* Shawod Button */
+.primary-shadow {
+  @apply shadow shadow-blue-500/50;
+}
+.secondary-shadow {
+  @apply shadow shadow-gray-500/50;
+}
+.warning-shadow {
+  @apply shadow shadow-orange-500/50;
+}
+.success-shadow {
+  @apply shadow shadow-green-500/50;
+}
+.info-shadow {
+  @apply shadow shadow-cyan-500/50;
+}
+.dark-shadow {
+  @apply shadow shadow-black/50;
+}
+.purple-shadow {
+  @apply shadow shadow-purple-500/50;
+}
+.indigo-shadow {
+  @apply shadow shadow-indigo-500/50;
+}
+.pink-shadow {
+  @apply shadow shadow-pink-500/50;
+}
+.danger-shadow {
+  @apply shadow shadow-red-500/50;
+}
+
+/* Ring Button */
+.primary-ring {
+  @apply focus:ring-2 ring-offset-2 ring-blue-500/50  transition-all rounded;
+}
+.secondary-ring {
+  @apply focus:ring-2 ring-offset-2 ring-gray-500/50  transition-all rounded;
+}
+.warning-ring {
+  @apply focus:ring-2 ring-offset-2 ring-orange-500/50  transition-all rounded;
+}
+.success-ring {
+  @apply focus:ring-2 ring-offset-2 ring-green-500/50  transition-all rounded;
+}
+.info-ring {
+  @apply focus:ring-2 ring-offset-2 ring-cyan-500/50  transition-all rounded;
+}
+.dark-ring {
+  @apply focus:ring-2 ring-offset-2 ring-black/50  transition-all rounded;
+}
+.purple-ring {
+  @apply focus:ring-2 ring-offset-2 ring-purple-500/50  transition-all rounded;
+}
+.indigo-ring {
+  @apply focus:ring-2 ring-offset-2 ring-indigo-500/50  transition-all rounded;
+}
+.pink-ring {
+  @apply focus:ring-2 ring-offset-2 ring-pink-500/50  transition-all rounded;
+}
+.danger-ring {
+  @apply focus:ring-2 ring-offset-2 ring-red-500/50  transition-all rounded;
+}
+
+/* Meterial Button */
+.meterial {
+  @apply shadow-sm rounded relative shadow-black/40 before:w-full before:h-full before:absolute before:inset-0 before:bg-white/20 before:scale-0 before:transition-all before:hover:scale-100 before:rounded-full before:hover:rounded-none;
+}
+
+/* Sweet Button */
+.sweet-primary {
+  @apply bg-transparent text-black hover:bg-blue-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-blue-500 hover:border-blue-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+
+.sweet-secondary {
+  @apply bg-transparent text-black hover:bg-gray-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-gray-500 hover:border-gray-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+
+.sweet-warning {
+  @apply bg-transparent text-black hover:bg-orange-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-orange-500 hover:border-orange-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-success {
+  @apply bg-transparent text-black hover:bg-green-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-green-500 hover:border-green-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-info {
+  @apply bg-transparent text-black hover:bg-cyan-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-cyan-500 hover:border-cyan-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+
+.sweet-dark {
+  @apply bg-transparent text-white hover:bg-black/70 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-black hover:border-black/70 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-purple {
+  @apply bg-transparent text-black hover:bg-purple-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-purple-500 hover:border-purple-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-indigo {
+  @apply bg-transparent text-black hover:bg-indigo-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-indigo-500 hover:border-indigo-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-pink {
+  @apply bg-transparent text-black hover:bg-pink-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-pink-500 hover:border-pink-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+.sweet-danger {
+  @apply bg-transparent text-black hover:bg-red-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-red-500 hover:border-red-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
+
+/* Outline Button */
+.outline-primary {
+  @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500 hover:bg-blue-500 transition-all hover:text-white;
+}
+
+.outline-secondary {
+  @apply bg-transparent border-[1.5px] border-gray-500 text-gray-500 hover:bg-gray-500 transition-all hover:text-white;
+}
+
+.outline-warning {
+  @apply bg-transparent border-[1.5px] border-orange-500 text-orange-500 hover:bg-orange-500 transition-all hover:text-white;
+}
+.outline-success {
+  @apply bg-transparent border-[1.5px] border-green-500 text-green-500 hover:bg-green-500 transition-all hover:text-white;
+}
+.outline-info {
+  @apply bg-transparent border-[1.5px] border-cyan-500 text-cyan-500 hover:bg-cyan-500 transition-all hover:text-white;
+}
+
+.outline-dark {
+  @apply bg-transparent border-[1.5px] border-black text-black hover:bg-black transition-all hover:text-white;
+}
+.outline-purple {
+  @apply bg-transparent border-[1.5px] border-purple-500 text-purple-500 hover:bg-purple-500 transition-all hover:text-white;
+}
+.outline-indigo {
+  @apply bg-transparent border-[1.5px] border-indigo-500 text-indigo-500 hover:bg-indigo-500 transition-all hover:text-white;
+}
+.outline-pink {
+  @apply bg-transparent border-[1.5px] border-pink-500 text-pink-500 hover:bg-pink-500 transition-all hover:text-white;
+}
+.outline-danger {
+  @apply bg-transparent border-[1.5px] border-red-500 text-red-500 hover:bg-red-500 transition-all hover:text-white;
+}
+
+/* Smart Button */
+.smart-primary {
+  @apply bg-blue-100 text-blue-700;
+}
+
+.smart-secondary {
+  @apply bg-gray-100 text-gray-700;
+}
+
+.smart-warning {
+  @apply bg-orange-100 text-orange-700;
+}
+.smart-success {
+  @apply bg-green-100 text-green-700;
+}
+.smart-info {
+  @apply bg-cyan-100 text-cyan-700;
+}
+
+.smart-dark {
+  @apply bg-gray-100 text-gray-700;
+}
+.smart-purple {
+  @apply bg-purple-100 text-purple-700;
+}
+.smart-indigo {
+  @apply bg-indigo-100 text-indigo-700;
+}
+.smart-pink {
+  @apply bg-pink-100 text-pink-700;
+}
+.smart-danger {
+  @apply bg-red-100 text-red-700;
+}
+
+/* Gradient Button */
+.gradient-primary {
+  @apply bg-gradient-to-r from-blue-500 to-blue-100;
+}
+
+.gradient-secondary {
+  @apply bg-gradient-to-r from-gray-500 to-gray-100;
+}
+
+.gradient-warning {
+  @apply bg-gradient-to-r from-orange-500 to-orange-100;
+}
+.gradient-success {
+  @apply bg-gradient-to-r from-green-500 to-green-100;
+}
+.gradient-info {
+  @apply bg-gradient-to-r from-cyan-500 to-cyan-100;
+}
+
+.gradient-dark {
+  @apply bg-gradient-to-r from-gray-500 to-gray-100;
+}
+.gradient-purple {
+  @apply bg-gradient-to-r from-purple-500 to-purple-100;
+}
+.gradient-indigo {
+  @apply bg-gradient-to-r from-indigo-500 to-indigo-100;
+}
+.gradient-pink {
+  @apply bg-gradient-to-r from-pink-500 to-pink-100;
+}
+.gradient-danger {
+  @apply bg-gradient-to-r from-red-500 to-red-100;
+}
+
+/* Spinner Button */
+.spinner {
+  @apply block w-5 h-5 border-[3px] rounded-full border-t-black/10 border-r-black/10 animate-spin;
+}
+
+/* Block Button */
+.btn-block {
+  @apply block w-full text-base pt-3;
+}

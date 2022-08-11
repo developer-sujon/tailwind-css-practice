@@ -1,0 +1,42 @@
+.alert {
+  @apply px-[15px] py-[14px] relative transition-all;
+}
+
+.alert span {
+  @apply text-base font-semibold capitalize;
+}
+.alert-close {
+  @apply absolute top-0 right-0 h-full flex items-center mr-4 cursor-pointer;
+}
+.alert-success {
+  @apply bg-green-100 text-green-700 border border-green-200 capitalize;
+}
+
+.alert-warning {
+  @apply bg-orange-100 text-orange-700 border border-orange-200 capitalize;
+}
+
+.alert-danger {
+  @apply bg-red-100 text-red-700 border border-red-200 capitalize;
+}
+
+.alert-info {
+  @apply bg-cyan-100 text-cyan-700 border border-cyan-200 capitalize;
+}
+
+/* Beautify Alerts */
+.beautify-success {
+  @apply border-l-[5px] border-green-500 rounded-tl-none rounded-bl-none !important;
+}
+.beautify-warning {
+  @apply border-l-[5px] border-orange-500 rounded-tl-none rounded-bl-none !important;
+}
+.beautify-success {
+  @apply border-l-[5px] border-green-500 rounded-tl-none rounded-bl-none !important;
+}
+.beautify-danger {
+  @apply border-l-[5px] border-red-500 rounded-tl-none rounded-bl-none !important;
+}
+.beautify-info {
+  @apply border-l-[5px] border-cyan-500 rounded-tl-none rounded-bl-none !important;
+}

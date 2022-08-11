@@ -1,0 +1,23 @@
+.card {
+  @apply bg-white p-5 shadow-lg dark:bg-gray-800;
+}
+
+.form-heading {
+  @apply mb-4 underline decoration-indigo-500 decoration-wavy underline-offset-[5px] text-lg capitalize dark:text-white;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.form-label {
+  @apply block mb-2 text-gray-500 capitalize dark:text-white;
+}
+
+.form-input {
+  @apply w-full border-none outline-none bg-[#f7f7f8] py-2.5 px-4 focus:ring-[3px] ring-gray-200 placeholder:capitalize placeholder:text-gray-400 dark:ring-orange-500;
+}
+
+.sweet {
+  @apply bg-transparent text-black hover:bg-blue-500 relative border-[3px] border-black before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:-z-10 before:bg-blue-500 hover:border-blue-200 hover:text-white hover:before:bottom-0 hover:before:right-0 before:transition-all;
+}
